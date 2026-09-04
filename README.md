@@ -46,6 +46,7 @@ bin/server                              # shell into the server
 bin/server --root                       # shell into the server as root, for installing tools
 
 bin/status                              # container statuses, CA, agent certs
+bin/deploy                              # deploy modules from the Forge to the classroom infrastructure
 bin/agent-regen {node}                  # revoke and regenerate the agent's cert
 ```
 
