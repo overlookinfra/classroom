@@ -40,13 +40,15 @@ bin/ubuntu puppet agent -t              # run the agent on the Ubuntu node
 bin/ubuntu {command}                    # run a command on the Ubuntu node
 bin/ubuntu                              # shell into the Ubuntu target
 
+bin/status                              # container statuses, CA, agent certs
+bin/deploy                              # deploy modules from the Forge to the classroom infrastructure
+
+# Not commonly used
 bin/server puppetserver ca list --all   # list certificates on the server
 bin/server {command}                    # run a command on the server node
 bin/server                              # shell into the server
 bin/server --root                       # shell into the server as root, for installing tools
 
-bin/status                              # container statuses, CA, agent certs
-bin/deploy                              # deploy modules from the Forge to the classroom infrastructure
 bin/agent-regen {node}                  # revoke and regenerate the agent's cert
 ```
 
