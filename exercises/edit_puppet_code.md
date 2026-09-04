@@ -16,6 +16,7 @@ to the profile we're working on.
 2. Find the single quoted string in the notify resource title and correct it
    so that the strings are interpolated properly.
 3. Add a new class parameter to enable SSL conditionally.
+    * Edit `/code/environments/production/site/profile/manifests/apache.pp`
     * Add `Boolean $ssl = false` to the class parameters list.
     * Wrap the SSL enabled vhost resource in an `if $ssl { ... }` conditional block.
 4. Enforce the configuration and observe the vhost configuration being removed.
