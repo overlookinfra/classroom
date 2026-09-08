@@ -12,7 +12,7 @@ and makes it easier to change the backed implementation later if needed.
 ## Exercise
 
 1. Find the `role::website` class manifest and ensure that it includes `profile::apache`.
-    * `/code/environments/production/site/profiles/manifests/website.pp`
+    * `/code/environments/production/site/role/manifests/website.pp`
 2. Edit the site manifest and add `include role::website` to the `default` node declaration.
     * `/code/environments/production/manifests/site.pp`
 3. Run OpenVox on each node
