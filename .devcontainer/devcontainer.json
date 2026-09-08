@@ -24,7 +24,9 @@
     "vscode": {
       "extensions": [
         // Adds a Containers panel: right-click a lab container, Attach Shell.
-        "ms-azuretools.vscode-containers"
+        "ms-azuretools.vscode-containers",
+        // Adds syntax highlighting for Puppet files (.pp)
+        "puppet.puppet-vscode"
       ]
     }
   }
