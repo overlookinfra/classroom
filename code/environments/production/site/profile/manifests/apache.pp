@@ -6,7 +6,7 @@ class profile::apache (
     default_vhost => true,
   }
 
-  # apache::vhost { "${servername} (non SSL)"":
+  # apache::vhost { "${servername} (non SSL)":
   #   servername => $servername,
   #   port       => 80,
   #   docroot    => '/var/www/html',
