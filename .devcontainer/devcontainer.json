@@ -1,6 +1,6 @@
 {
   "name": "OpenVox Classroom",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
 
   "features": {
     // Runs a private Docker daemon inside this container. The lab lives on
